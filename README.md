@@ -1,5 +1,5 @@
 # Ex. No: 10 – Packet Tracer: Subnetting Scenario
-# Date: ___________
+# Date: 17-10-2025
 ________________________________________<br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -17,7 +17,8 @@ ________________________________________<br>
 •	Serial DCE/DTE cable for WAN link<br>
 ________________________________________
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1 ↔ R2 serial link, each router connected to two switches with PCs attached.)<br>
+<img width="1920" height="1080" alt="502380510-d54affd7-989f-4e04-8826-5a4baff780ef" src="https://github.com/user-attachments/assets/b4c82271-ed77-416f-8320-9202e5b7ef5c" />
+
 ________________________________________
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -105,15 +106,25 @@ o	Ping default gateway<br>
 o	Ping across LANs (PC1 ↔ PC3)<br>
 o	Ping across WAN (PC2 ↔ PC4)<br>
 ________________________________________<br>
-# Commands Used (Summary)
+# Commands Used:
 •	Mode/navigation: enable, configure terminal, end<br>
 •	Interface config: interface g0/0, ip address, no shutdown<br>
 •	Show/verify: show ip interface brief, show ip route<br>
 •	Save: copy running-config startup-config<br>
 ________________________________________<br>
-# Output (Attach Screenshots)
-•	show ip interface brief on R1 and R2<br>
-•	Successful pings PC ↔ PC<br>
+# Output:
+•	show ip interface brief on R1 and R2:
+
+<img width="1914" height="1009" alt="502379867-ab2d35c6-7b46-4bfc-8d18-e1f39fb9999d" src="https://github.com/user-attachments/assets/7c2492a0-5194-47b4-b95f-3d987dd273c6" />
+<img width="1920" height="1080" alt="502380006-5f8881da-aaae-4509-a0df-583b453ca0cc" src="https://github.com/user-attachments/assets/deb70772-33de-4bb8-b0ae-ce7d8c1ba2af" />
+<img width="1920" height="1080" alt="502380123-42b3feb9-561f-42cc-88b9-a6ad279f2dfc" src="https://github.com/user-attachments/assets/48742ada-1ded-43c5-a0a4-8be22c6499df" />
+
+•	Successful pings PC ↔ PC:
+
+<img width="1920" height="1080" alt="502380255-e434765d-0d7d-46b7-bf8b-1ca5344f7bed" src="https://github.com/user-attachments/assets/0519ebe7-0683-460f-8172-c43bb88f50a5" />
+<img width="1920" height="1080" alt="502380340-ce8e767f-4acf-44e5-88db-dc02746d4e42" src="https://github.com/user-attachments/assets/1f2c1d53-09f9-4664-aae5-ad23d50650c9" />
+<img width="1920" height="1080" alt="502380410-a25fb421-7974-483c-a35f-f516046b0ca5" src="https://github.com/user-attachments/assets/defa65f5-e900-4a69-8fe9-a4273337c4d1" />
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Routers, switches, and PCs were configured with correct addressing. Connectivity within LANs and across WAN was verified.
